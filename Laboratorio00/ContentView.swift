@@ -13,6 +13,9 @@ var body: some View {
         Text("Mi primer commit desde Xcode")
             .font(.subheadline)
             .foregroundColor(.gray)
+        
+        Text("Versión MANUAL - Hecha sin IA")
+            .font(.headline)
+            .foregroundColor(.blue)
     }
-    .padding()
-    }
+}
